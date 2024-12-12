@@ -29,13 +29,12 @@
   "devDependencies": {
     "@types/chai": "^4.1.5",
     "@types/mocha": "^5.2.6",
-    "@types/mongodb": "^3.1.7",
     "@types/node": "^12.0.2",
     "@types/os-tmpdir": "^1.0.0",
     "chai": "^4.1.2",
     "jsdoc": "^3.5.5",
     "mocha": "^6.1.4",
-    "rimraf": "^2.6.2",
+    "rimraf": "^6.0.1",
     "ts-node": "^8.2.0",
     "tsd-jsdoc": "^2.0.0-beta.6",
     "tslint": "^5.11.0",
@@ -43,9 +42,8 @@
   },
   "dependencies": {
     "es6-promise": "^4.2.5",
-    "mongodb": "^3.1.6",
-    "os-tmpdir": "^2.0.0",
-    "unique-filename": "^1.1.1"
+    "mongodb": "^5.9.2",
+    "unique-filename": "^4.0.0"
   },
   "scripts": {
     "build": "rimraf dist && tsc",
